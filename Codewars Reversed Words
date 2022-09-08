@@ -1,0 +1,6 @@
+def reverse_words(s):
+    # [hello! world] ==> ['hello', '!', 'world']
+    words = s.split(' ')
+    #['hello!', 'world'] ==> ['world', '!', 'hello']
+    reversed_words = words[::-1]
+    return ' '.join(reversed_words)
